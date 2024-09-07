@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### Overview of the Imported Libraries and Initial Setup
 - Essential libraries are imported for handling imbalanced datasets, building machine learning pipelines, and generating interactive plots.
 - **Key Libraries**: `imblearn` (e.g., SMOTE, ADASYN) for oversampling; Plotly for interactive plots.
