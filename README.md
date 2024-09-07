@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Overview of the Imported Libraries and Initial Setup
 - Essential libraries are imported for handling imbalanced datasets, building machine learning pipelines, and generating interactive plots.
 - **Key Libraries**: `imblearn` (e.g., SMOTE, ADASYN) for oversampling; Plotly for interactive plots.
@@ -62,3 +63,4 @@ The project employs a variety of machine learning algorithms to predict fraudule
 2. **Data Preprocessing**: Z-score based outlier removal and dataset cleaning.
 3. **Modeling**: Hyperparameter tuning using Grid Search with Random Forest, SVM, and KNN.
 4. **Visualization**: Plotting interactive dendrograms to understand feature correlations.
+
