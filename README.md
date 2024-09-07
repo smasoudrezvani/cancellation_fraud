@@ -1,24 +1,3 @@
-### Overview of the Imported Libraries and Initial Setup
-- Essential libraries are imported for handling imbalanced datasets, building machine learning pipelines, and generating interactive plots.
-- **Key Libraries**: `imblearn` (e.g., SMOTE, ADASYN) for oversampling; Plotly for interactive plots.
-- Configurations include setting a random seed for reproducibility and ensuring full visibility of DataFrames.
-
-### Explanation of Model Hyperparameter Grids
-- Hyperparameter grids are defined for various classifiers like Random Forest, Support Vector Machine (SVM), and K-Nearest Neighbors (KNN).
-- **Random Forest**: Parameters like maximum depth and feature selection methods are explored.
-- **SVM**: Both linear and RBF kernels are considered with varying regularization strengths.
-- **KNN**: Focuses on the number of neighbors and distance metrics to optimize model performance.
-
-### Importing and Cleaning the Dataset
-- Outlier detection and removal are done using Z-scores, where data points that deviate by more than three standard deviations are eliminated.
-
-### Dendrogram Visualization
-- A dendrogram is generated to visualize the hierarchical clustering of dataset features based on their correlations.
-
-With this summary in mind, here's a README that you can use for your GitHub repository:
-
----
-
 # Cancellation Fraud Detection in Ride-Hailing Services Using Machine Learning
 
 This project aims to detect fraudulent behavior in ride-hailing services, where drivers accept trips but cancel them to avoid paying commission. The notebook leverages machine learning techniques to identify such drivers.
@@ -46,7 +25,7 @@ The project employs a variety of machine learning algorithms to predict fraudule
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/smasoudrezvani/cancellation_fraud
+   git clone https://github.com/smasoudrezvani/cancellation_fraud.git
    ```
 
 2. Install the necessary dependencies:
